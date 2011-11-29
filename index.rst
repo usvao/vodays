@@ -11,7 +11,7 @@ Welcome to VO Days!
 Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    software
    stories/stories
@@ -23,5 +23,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
-
-:Copyright: 2011 US Virtual Astronomical Observatory

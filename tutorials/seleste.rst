@@ -1,8 +1,9 @@
-.. include:: ../references.rst
 .. vodays documentation file
-.. _seleste_tutorial:
+.. include:: ../references.rst
 
 :tocdepth: 1
+
+.. _tutorial_seleste:
    
-Seleste:
-========
+Seleste: A Tool For Querying Remote tables
+==========================================

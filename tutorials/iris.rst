@@ -1,8 +1,9 @@
-.. include:: ../references.rst
 .. vodays documentation file
-.. _iris_tutorial:
+.. include:: ../references.rst
 
 :tocdepth: 1
+
+.. _tutorial_iris:
    
-Iris:
-=====
+Iris: Build and Model Spectral Energy Distributions
+===================================================

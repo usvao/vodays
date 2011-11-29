@@ -1,8 +1,9 @@
-.. include:: ../references.rst
 .. vodays documentation file
-.. _portal_tutorial:
+.. include:: ../references.rst
 
 :tocdepth: 1
+
+.. _tutorial_tutorial:
    
-Data Discovery Portal:
-======================
+Data Discovery Portal: Pan-Archive Search and Retrieval
+=======================================================

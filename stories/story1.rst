@@ -1,8 +1,9 @@
-.. include:: ../references.rst
 .. vodays documentation file
-.. _science_story1:
+.. include:: ../references.rst
 
 :tocdepth: 1
-   
+
+.. _science_story1:
+
 Story 1:  
 ========

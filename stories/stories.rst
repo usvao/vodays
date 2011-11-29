@@ -1,5 +1,5 @@
-.. include:: ../references.rst
 .. vodays documentation file
+.. include:: ../references.rst
 
 :tocdepth: 2
 
@@ -24,9 +24,3 @@ ways:  object types (quasars versus ), .
    
    story1
    story2
-
- 
-
-
-
-:Copyright: 2011 US Virtual Astronomical Observatory

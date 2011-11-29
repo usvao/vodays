@@ -1,7 +1,9 @@
-.. include:: ../references.rst
 .. vodays documentation file
+.. include:: ../references.rst
 
 :tocdepth: 2
+
+.. _voday_tutorials: 
 
 Tutorials
 =========
@@ -15,6 +17,3 @@ remember that all the tutorials are set within 1 or more :ref:`sci_stories`.
    discoveryportal
    seleste
    iris
-
-
-:Copyright: 2011 US Virtual Astronomical Observatory
