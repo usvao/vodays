@@ -8,8 +8,8 @@
 Science Stories
 ===============
 
-When we use the term "Story" we are talking about a narrative version of a research
-problem.  
+When we use the term "Story" we are talking about a narrative version of a
+research problem.  
 
 The tutorials build on this narrative by inserting the specific tools into the
 narrative as a means to solve the overall problem.
@@ -17,10 +17,12 @@ narrative as a means to solve the overall problem.
 One to two stories should be used for the VO Day.  Stories can vary in many
 ways:  object types (quasars versus ), .  
 
-**Individual Stories**
+**Individual Science Stories**
 
 .. toctree::
    :maxdepth: 1
    
-   story1
-   story2
+   story_ttau
+   story_ysos
+   story_blazars
+   story_mergers

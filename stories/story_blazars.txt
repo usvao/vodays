@@ -3,7 +3,7 @@
 
 :tocdepth: 1
 
-.. _science_story2:
+.. _sci_blazars:
    
-Story 2:  
-========
+Blazars, Fermi, ALMA, oh my!  
+============================
