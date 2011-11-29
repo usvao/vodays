@@ -6,7 +6,7 @@
 Tutorials
 =========
    
-remember that all the tutorials are set within 1 or more :ref:`science_stories`.
+remember that all the tutorials are set within 1 or more :ref:`science_xtor`.
 
 .. toctree::
    :maxdepth: 1

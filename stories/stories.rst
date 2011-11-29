@@ -3,9 +3,9 @@
 
 :tocdepth: 1
 
-.. _science_stories: 
+.. _science_xtor: 
 
-Science Stories
+Science sae
 ===============
 
 When we use the term "Story" we are talking about a narrative version of a research
@@ -14,10 +14,10 @@ problem.
 The tutorials build on this narrative by inserting the specific tools into the
 narrative as a means to solve the overall problem.
 
-One to two stories should be used for the VO Day.  Stories can vary in many
+One to two xtor should be used for the VO Day.  Stories can vary in many
 ways:  object types (quasars versus ), .  
 
-**Individual Stories**
+**Individual xts**
 
 .. toctree::
    :maxdepth: 1
