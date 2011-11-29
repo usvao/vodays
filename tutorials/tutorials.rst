@@ -8,7 +8,10 @@
 Tutorials
 =========
    
-remember that all the tutorials are set within 1 or more :ref:`sci_stories`.
+Remember that all the tutorials are set within 1 or more :ref:`sci_stories`!
+
+The workshop's agenda follow these four tutorials.  Each tutorial will last
+approximately 30 minutes.
 
 .. toctree::
    :maxdepth: 1

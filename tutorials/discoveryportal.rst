@@ -3,7 +3,7 @@
 
 :tocdepth: 1
 
-.. _tutorial_tutorial:
+.. _tutorial_portal:
    
 Data Discovery Portal: Pan-Archive Search and Retrieval
 =======================================================
