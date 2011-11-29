@@ -19,7 +19,7 @@ Quick Answers
     and do not drive.
     
     Out of town particpants driving to Boston are encouraged to contact the 
-    :ref:`organizers` to make individual parking arrangements. 
+    `organizers`_ to make individual parking arrangements. 
 
 **Time/Date**
     | Wednesday, 30 November 2011
