@@ -13,6 +13,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
    
+   logistics
    software
    stories/stories
    tutorials/tutorials
