@@ -21,5 +21,6 @@ Contents:
 Indices and tables
 ==================
 
+* :ref:`timeline`
 * :ref:`genindex`
 * :ref:`search`
