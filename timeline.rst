@@ -1,3 +1,7 @@
+.. vodays index/history file
+.. include:: references.rst
+
+:tocdepth: 2
 
 .. _timeline:
 

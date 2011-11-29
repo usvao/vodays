@@ -5,8 +5,8 @@
 .. include:: references.rst
 
 
-Welcome to VO Days!
-===================
+Welcome to VO Community Days!
+=============================
 
 Contents:
 
@@ -18,8 +18,8 @@ Contents:
    tutorials/tutorials
 
 
-Indices and tables
-==================
+History, Indices and Search
+===========================
 
 * :ref:`timeline`
 * :ref:`genindex`
