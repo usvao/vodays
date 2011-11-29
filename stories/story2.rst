@@ -1,4 +1,4 @@
-.. include:: references.rst
+.. include:: ../references.rst
 .. vodays documentation file
 .. _science_story2:
 

@@ -1,10 +1,12 @@
-.. include:: references.rst
+.. include:: ../references.rst
 .. vodays documentation file
 
 :tocdepth: 1
 
-Stories
-=======
+.. _science_stories: 
+
+Science Stories
+===============
 
 When we use the term "Story" we are talking about a narrative version of a research
 problem.  
@@ -15,7 +17,7 @@ narrative as a means to solve the overall problem.
 One to two stories should be used for the VO Day.  Stories can vary in many
 ways:  object types (quasars versus ), .  
 
-**Agenda**
+**Individual Stories**
 
 .. toctree::
    :maxdepth: 1
