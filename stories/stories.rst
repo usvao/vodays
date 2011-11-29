@@ -1,11 +1,11 @@
 .. include:: ../references.rst
 .. vodays documentation file
 
-:tocdepth: 1
+:tocdepth: 2
 
-.. _science_xtor: 
+.. _sci_stories: 
 
-Science sae
+Science Stories
 ===============
 
 When we use the term "Story" we are talking about a narrative version of a research
@@ -14,10 +14,10 @@ problem.
 The tutorials build on this narrative by inserting the specific tools into the
 narrative as a means to solve the overall problem.
 
-One to two xtor should be used for the VO Day.  Stories can vary in many
+One to two stories should be used for the VO Day.  Stories can vary in many
 ways:  object types (quasars versus ), .  
 
-**Individual xts**
+**Individual Stories**
 
 .. toctree::
    :maxdepth: 1

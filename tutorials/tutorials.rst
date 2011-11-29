@@ -1,12 +1,12 @@
 .. include:: ../references.rst
 .. vodays documentation file
 
-:tocdepth: 1
+:tocdepth: 2
 
 Tutorials
 =========
    
-remember that all the tutorials are set within 1 or more :ref:`science_xtor`.
+remember that all the tutorials are set within 1 or more :ref:`sci_stories`.
 
 .. toctree::
    :maxdepth: 1
