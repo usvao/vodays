@@ -16,7 +16,7 @@ Science Story
 This tutorial is sourced in the :ref:`sci_blazars` science story, which is
 about the acquiring multi-wavelength data on γ-ray sources, either to
 determine their counterparts or to determine the emission mechanisms. From the
-standpoint of the Iris SED Tool, this tutorial is intended to demonstrate how
+standpoint of the `Iris`_ SED Tool, this tutorial is intended to demonstrate how
 one could construct a Spectral Energy Distribution (SED) using a mix of
 Virtual Observatory (VO) services and tools.
 
@@ -35,7 +35,9 @@ Tools and Files
 
 This tutorial uses the 
   * `Iris`_
-  * `TOPCAT`_ tools. 
+  * `TOPCAT`_ 
+  
+desktop applications. 
 
 We provide two files for the purposes of working through this tutorial. Fermi
 data from the literature are contained in :download:`3c273_fermi.dat
@@ -47,11 +49,11 @@ editor before beginning the script).
 Building the SED
 ----------------
 
-#. Start the Iris SED Importer tool, the SedImporter.    
-#. Select Load SED. A text box will open; provide a name for the new SED
+#. Start the `Iris`_ SED Importer tool, the **SedImporter**.    
+#. Select ``Load SED``. A text box will open; provide a name for the new SED
    (e.g., `3C273`_). A new window should appear, with the ID specified.
 #. In the Target Info area, enter the name `3C273`_ to resolve the source name
-   into coordinates. Select Resolve and the coordinates should be filled in.
+   into coordinates. Select ``Resolve`` and the coordinates should be filled in.
    (RA = 187.277896334, DEC = 2.052406321).
 #. At the time of the writing of this document, the 2 Year Fermi data has not
    been incorporated into the NASA Extragalactic Database (NED). We must,
@@ -59,47 +61,47 @@ Building the SED
    named :download:`3c273_fermi.dat <3c273_fermi.dat>` containing the 
    relevant Fermi data (Abdo et al. 2011).
 
-    #. Select New Segment to begin adding data. A new window should appear. 
+    #. Select ``New Segment`` to begin adding data. A new window should appear. 
        Since we are loading Fermi data from an external file, ensure that 
-       the Location on Disk radio box is selected. Browse one’s disk to 
-       select the file, ensure that the File Format is ASCII Table, 
+       the ``Location on Disk`` radio box is selected. Browse one’s disk to 
+       select the file, ensure that the ``File Format`` is ASCII Table, 
        and then load the data.
-    #. A new Import Setup window should appear. This step is necessary to tell
-       Iris what the relevant units are. The external Fermi file should be
-       structured so that the first column (col1) is energy in units of Mev, the
+    #. A new ``Import Setup`` window should appear. This step is necessary to tell
+       `Iris`_ what the relevant units are. The external Fermi file should be
+       structured so that the first column (*col1*) is energy in units of Mev, the
        second column is photon flux density in units of photons/cm2/s/Hz, and the
-       third column contains the uncertainties as a SymmetricColumn. Because
+       third column contains the uncertainties as a ``SymmetricColumn``. Because
        these data are being loaded from an external file, the Publisher is
-       specified as UNKNOWN. For ease of keeping track of various data segments,
+       specified as *UNKNOWN*. For ease of keeping track of various data segments,
        it is recommended that one change this field to something meaningful,
        e.g., Fermi.
-    #. Select Add Segment to SED.
+    #. Select ``Add Segment`` to SED.
 
 #. At this point, the SED window should show a record listing 5 data from the
    publisher Fermi, with the coordinates of 3C273.
-#. We now add the published data from NED. Select New Segment. A new window
-   should appear, but this time select Get an SED from the NED Service. The
+#. We now add the published data from NED. Select ``New Segment``. A new window
+   should appear, but this time select ``Get an SED`` from the ``NED Service``. The
    target Name field should already be completed. Select Import NED SED, and a
    new listing should appear with 67 data from the publisher NASA/IPAC
    Extragalactic Database.
 #. We now add our hypothetical data from ALMA. This time we won’t import the
    file directly into the SEDImporter from the file, but we will imagine the ALMA
    data have been retrieved from a VO service that searches tabular data, using
-   Topcat. So, if you know how to use Topcat, import the second file
-   “3C273_alma.dat” into Topcat.
+   `TOPCAT`_. So, if you know how to use `TOPCAT`_, import the second file
+   “3C273_alma.dat” into `TOPCAT`_.
 
-    #. Select the file in Topcat main window the file and sent it to the
-    SEDImporter using the SAMP interoperability between the SEDImporter and
-    Topcat (click on the icon with the radio tower).
+    #. Select the file in `TOPCAT`_ main window the file and sent it to the
+       SEDImporter using the SAMP interoperability between the SEDImporter and
+       `TOPCAT`_ (click on the icon with the radio tower).
     #. From this point on, the steps are similar to adding the Fermi data, but
-    are listed here for completeness. A new Import Setup window should appear
-    automatically when the file is “broadcast” from Topcat. The second column
-    (col2) is frequency in units of GHz, the fourth column (col4) is flux
-    density in units of Jy, and the fifth column (col5) is the uncertainties
-    as a SymmetricColumn. Because these data are being loaded from an external
-    file, the Publisher is specified as UNKNOWN. For ease of keeping track of
-    various data segments, it is recommended that one change this field to
-    something meaningful, e.g., ALMA.
+       are listed here for completeness. A new Import Setup window should appear
+       automatically when the file is “broadcast” from `TOPCAT`_. The second column
+       (col2) is frequency in units of GHz, the fourth column (col4) is flux
+       density in units of Jy, and the fifth column (col5) is the uncertainties
+       as a SymmetricColumn. Because these data are being loaded from an external
+       file, the Publisher is specified as UNKNOWN. For ease of keeping track of
+       various data segments, it is recommended that one change this field to
+       something meaningful, e.g., ALMA.
     #. Select Add Segment to SED.
 
 #. At this point, the SED window should show a record listing 4 data from the
@@ -111,10 +113,10 @@ Building the SED
 Modeling the SED
 ----------------
 
-#. In order to display this SED, click on Launch Iris icon from the main
+#. In order to display this SED, click on Launch `Iris`_ icon from the main
    SedImporter window. A new window should appear.
 #. Go back to the main SED window of the SEDImporter and click on Broadcast
-   SED to seamlessly send the whole SED to Iris. The plot of the SED should
+   SED to seamlessly send the whole SED to `Iris`_. The plot of the SED should
    appear. Black boxes show data from the NED SED service, with purple associated
    to data points with no error estimates available. Red boxed show data
    contained in the two files that have been imported into the SEDImporter.
@@ -147,14 +149,14 @@ Modeling the SED
 Independent Exercise
 --------------------
 
-In Iris, you can compare multiple SEDs by overplotting them. As an example,
+In `Iris`_, you can compare multiple SEDs by overplotting them. As an example,
 you can build the SED for a different source, say the blazar 4C+28.07 for
 which a decent amount of multiwavelength observations and Fermi data are
 available (provided in :download:`4c28.07_fermi.dat
 <4c28.07_fermi.dat>`). Try to build
 the SED for 4C+28.07 within the SEDImporter using both NED SED data and the
-Fermi data contained in the “4C+28.07_fermi.dat”, while Iris is still showing
-3C273 SED. Then, send the newly created SED to Iris and overplot it to the
+Fermi data contained in the “4C+28.07_fermi.dat”, while `Iris`_ is still showing
+3C273 SED. Then, send the newly created SED to `Iris`_ and overplot it to the
 previously plotted SED.
 
 .. note:: If you can’t find out how to coplot SEDs, have a look at the 
