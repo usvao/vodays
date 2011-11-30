@@ -49,7 +49,14 @@ editor before beginning the script).
 Building the SED
 ----------------
 
-#. Start the `Iris`_ SED Importer tool, the **SedImporter**.    
+#. Start the `Iris`_ SED Importer tool, the **SEDImporter**.    
+
+.. image:: /tutorials/iris/picture1.png
+   :align: right
+   :width: 20 %
+   :scale: 100 %
+
+  
 #. Select ``Load SED``. A text box will open; provide a name for the new SED
    (e.g., `3C273`_). A new window should appear, with the ID specified.
 #. In the Target Info area, enter the name `3C273`_ to resolve the source name
@@ -85,13 +92,13 @@ Building the SED
    new listing should appear with 67 data from the publisher NASA/IPAC
    Extragalactic Database.
 #. We now add our hypothetical data from ALMA. This time we won’t import the
-   file directly into the SEDImporter from the file, but we will imagine the ALMA
+   file directly into the **SEDImporter** from the file, but we will imagine the ALMA
    data have been retrieved from a VO service that searches tabular data, using
-   `TOPCAT`_. So, if you know how to use `TOPCAT`_, import the second file
-   “3C273_alma.dat” into `TOPCAT`_.
+   `TOPCAT`_. So, if you know how to use `TOPCAT`_, import the second
+   file :download:`3c273_alma.dat <3c273_alma.dat>` into `TOPCAT`_.
 
     #. Select the file in `TOPCAT`_ main window the file and sent it to the
-       SEDImporter using the SAMP interoperability between the SEDImporter and
+       **SEDImporter** using the SAMP interoperability between the **SEDImporter** and
        `TOPCAT`_ (click on the icon with the radio tower).
     #. From this point on, the steps are similar to adding the Fermi data, but
        are listed here for completeness. A new Import Setup window should appear
@@ -102,48 +109,49 @@ Building the SED
        file, the Publisher is specified as UNKNOWN. For ease of keeping track of
        various data segments, it is recommended that one change this field to
        something meaningful, e.g., ALMA.
-    #. Select Add Segment to SED.
+    #. Select ``Add Segment`` to SED.
 
 #. At this point, the SED window should show a record listing 4 data from the
    publisher ALMA, with the coordinates of 3C273.
-#. Save this SED, which should contain 3 segments from the publishers Fermi,
+#. ``Save this SED``, which should contain 3 segments from the publishers Fermi,
    NASA/IPAC Extragalactic Database, and ALMA, to an external file. Save it as a
-   VOTable.
+   VOTable (data/metdata formatted in XML).
 
 Modeling the SED
 ----------------
 
-#. In order to display this SED, click on Launch `Iris`_ icon from the main
-   SedImporter window. A new window should appear.
-#. Go back to the main SED window of the SEDImporter and click on Broadcast
-   SED to seamlessly send the whole SED to `Iris`_. The plot of the SED should
+#. In order to display this SED, click on ``Launch Iris`` icon from the main
+   **SEDImporter** window. A new window should appear.
+#. Go back to the main SED window of the **SEDImporter** and click on 
+   ``Broadcast SED`` to seamlessly send the whole SED to `Iris`_. 
+   The plot of the SED should
    appear. Black boxes show data from the NED SED service, with purple associated
    to data points with no error estimates available. Red boxed show data
-   contained in the two files that have been imported into the SEDImporter.
+   contained in the two files that have been imported into the **SEDImporter**.
 #. You can change the units of measure of the SED plot, zoom in or out or/and
    change the representation of the SED. For example, you can select Flux in the
    quantity selector that is by default set to density flux. You will be asked to
    select the units of measure for the spectral and flux axes, a good choice is
    Hz and Jy-Hz respectively for the nu*f(nu) visualization of the SED.
-#. Clicking on fit, you will see that the powerlaw model from the models list
-   is added by default. You can click on Fit, pick an Optimization method and one
-   Statistics and perform the fit with this model.
+#. Clicking on ``Fit``, you will see that the powerlaw model from the models list
+   is added by default. You can click on ``Fit``, pick an ``Optimization`` method and one
+   ``Statistics`` and perform the fit with this model.
 #. If you are not satisfied with the fit, you can edit the model. For example,
-   select the powerlaw model and delete it by clicking on Delete, then click on
-   the Add box to add another model. Select brokenpowerlaw (c1 component should
-   be automatically added in the Model expression text field); you can use the
+   select the powerlaw model and delete it by clicking on ``Delete``, then click on
+   the ``Add`` box to add another model. Select ``brokenpowerlaw`` (c1 component should
+   be automatically added in the ``Model expression`` text field); you can use the
    broken powerlaw to perform a first fit by clicking again on Fit, then leave
    the fit statistic to its default value and change the optimization method to
-   chi2davatar (data points without error bars will be ignored during the fit);
+   ``chi2davatar``;
 #. You can build an arbitrarily complex model function for the fit by
-   mathematically combining the elementary function in the Model expression
+   mathematically combining the elementary function in the ``Model expression``
    field. You can try to combine the brokenpowlaw model with other models to
    improve the fit of the SED of 3C273.
-#. By selecting Define range in the main Fit window, you can interactively
+#. By selecting ``Define range`` in the main Fit window, you can interactively
    define the range of the fit by clicking on the two extremes of the range.
 #. The custom fitted model parameters can be saved to a local file before
-   exiting the fitting session, by selecting Write to a text file option from the
-   File menu of the Fit window and then by clicking on Write active components.
+   exiting the fitting session, by selecting ``Write to a text file`` option from the
+   File menu of the Fit window and then by clicking on ``Write active components``.
     
 
 Independent Exercise
