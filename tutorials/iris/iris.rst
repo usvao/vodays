@@ -1,7 +1,7 @@
 .. vodays documentation file
 .. include:: ../../references.rst
 
-:tocdepth: 3
+:tocdepth: 1
 
 .. _tutorial_iris:
    
@@ -34,8 +34,8 @@ Tools and Files
    :align: right
 
 This tutorial uses the 
-  * `Iris`_
-  * `TOPCAT`_ 
+  * `Iris`_   Python+Java based desktop application
+  * `TOPCAT`_ Java based desktop application  
   
 desktop applications. 
 

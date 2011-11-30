@@ -1,0 +1,84 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+Science question:	Incidence of X-ray activity in different types of galaxies
+Approach: 		Find optical and X-ray emitting galaxies with redshift > .1 and study their X-ray and optical  properties
+
+Search SDSS DR7 
+==============
+1. From the Services menu select SDSS DR7 - SLoan Digital Sky Survey Data Release 7
+
+
+2. Find SpecObjAll and PhotoObjAll tables under Contents on the left sidebar and browse their contents
+
+    We are looking for galaxies with spectral information so we can select on redshift.
+    SpecObjAll table contains all objects with measured spectra
+
+    	Step: select specClass from SpecObjAll, add in Column Criteria and set it  equal 2, to select galaxies
+    	Step: select z from from SpecObjAll, add in Column Criteria and set > .1, to select on redshift 
+
+    For the found galaxies we want to retrieve magnitudes so we can later compare with x-ray properties
+    PhotoObjAll table contains the magnitudes
+
+    	Step: select modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from PhotoObjAll and add to Output Colums
+
+    We also need the SDDS object ID so we can later use it to find x-ray source matches
+
+    	Step:select objID from PhotoObjAll tables and add to Output Columns
+
+    We now want to make sure that we only find objects matched across the PhooObjAll and SpecObjAll tables and
+    not the cross product of the two tables
+
+     	Step: select bestObjID from SpecObjAll and objID from PhotoObjAll at the same time (hold command key on mac) and add in Column Criteria. An automatically created criterion will set the two columns to equal.
+
+     We also want to focus in an area of the sky where there are Chandra observations
+
+	Step: select ra from SpecObjAll, add to the Search Criteria and set ra > 216 and ra < 220 
+	Step: select dec from SpecObjAll, add to the Search Criteria and set dec > 32 and dec < 36.6
+	          
+
+     Finally, we want to do a quick search for the purpose of this exercise so we'll retrieve only a subset of the found objects.
+
+     	Step: at the top of the form set Select 1000
+
+
+3.  Advanced, use ADQL editor to calculate colors
+
+     	Step: Click on ADQL icon on menu bar. Add the following at the end of  the SELECT clause 
+                       , (PhotoObjAll.modelMag_u-PhotoObjAll.modelMag_g) as ug, (PhotoObjAll.modelMag_r-PhotoObjAll.modelMag_z) as rz
+	Hint! Try Copy from here and Paste in the ADQL editor
+
+4. Click on Submit on the menu bar
+
+5.  Click on Run on the Jobs panel. When the status of the job is Completed open Results and browse. Ciick on Save on the menu bar to save results in file e.g. sdss_galaxies.xml
+
+
+Find matching galaxies in Chandra Source Catalog
+=========================================
+1. From the Services menu select Chandra Source Catalog (CSC) TAP Service
+
+2. Click on Upload on the menu bar, select the previously saved file e.g. sdss_galaxies.xml and click on Open. The data will appear in Contents in a new table TAP_UPLOAD.user_table.
+
+3. Find x-ray  matches for the galaxies in the uploaded table
+
+    Table csc_sdss_xmatch contains information about previously cross-matched CSC and SDSS sources. Unique identifiers for each entry are the CSC 'name' and SDSS 'objid'. and they can be used to identify the source in the user_table and master_source tables.
+
+	Step: select TAP_UPLOAD.user_table in Contents and add t Output Columns, all the table rows will be automatically added
+	Step: select name and flux_aper_90_b from master_source and add to Output Columns.
+	Step: select objID from TAP_UPLOAD.user_table and objid from csc_sdss_xmatch at the same time (hold command key on mac) and add to Column Criteria, they will be automatically set to equal. Notice that cscsdss.name=master_source.name was added automatically by virtue of the predefined association of the two tables in the CSC (shown in Default Table Joins)
+
+	Step: select probability from csc_sdss_xmatch, add to Search Criteria and set > .95 to narrow selection to very well cross-matched sources.
+
+    Make sure that Select at the top of the form is set back to 'all'.
+
+    Cick on Submit.
+
+4. On the Jobs panel
+
+    Click on Run.
+
+5. Start Topcat
+     Click on Send on the menu bar in the Jobs panel to send the results of the search to Topcat
+     Plot ug vs aper_flux_90_b and rz vs aper_flux_90_b
+
