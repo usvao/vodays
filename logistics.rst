@@ -32,7 +32,16 @@ Quick Answers
 
 **Wireless**
     |  Wireless access is available via two mechanisms:
-    |  - Login via the *Harvard Guest* 
+
+       * Login via the *Harvard University* access point.
+
+         - Non-CfA folks were given 1 day access 
+
+           - (check your email/spam with sender:networkaccess@guest.noc.harvard.edu) 
+
+         - CfA folks can use their standard wireless accounts.
+
+       * Login via the *Harvard Guest* **(This will timeout frequently.)**
 
 People
 ------
