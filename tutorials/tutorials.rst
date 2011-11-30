@@ -16,7 +16,7 @@ approximately 30 minutes.
 .. toctree::
    :maxdepth: 1
    
-   adslabs
-   discoveryportal
-   seleste
-   iris
+   adslabs/adslabs
+   discoveryportal/discoveryportal
+   seleste/seleste
+   iris/iris

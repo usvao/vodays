@@ -1,5 +1,5 @@
 .. vodays documentation file
-.. include:: ../references.rst
+.. include:: ../../references.rst
 
 :tocdepth: 1
 
