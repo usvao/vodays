@@ -23,6 +23,6 @@ ways:  object types (quasars versus ), .
    :maxdepth: 1
    
    story_ttau
-   story_ysos
    story_blazars
+   story_ysos
    story_mergers

@@ -15,3 +15,4 @@
 .. _3C273: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=3c273&NbIdent=1&Radius.unit=arcmin&submit=submit%20id&Radius=2
 .. _Abell 2199: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Abell+2199&NbIdent=1&Radius.unit=arcmin&submit=submit%20id&Radius=2
 .. _NGC 3393: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=NGC+3393&NbIdent=1&Radius.unit=arcmin&submit=submit%20id&Radius=2
+.. _T Tau: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=T+Tau&NbIdent=1&Radius.unit=arcsec&submit=submit%20id&Radius=10
