@@ -13,6 +13,11 @@ ADS Labs: The Next Generation Data/Literature Search Tool(s)
 Science Story
 -------------
 
+One begins to search the literature for many reasons during ones research:
+when one is looking for new data or new collaborations or learning a new
+field.  Here are a couple of ways ADS and `ADS Labs`_ might be used for some
+of the :ref:`sci_stories`:
+
 .. topic:: Questions
 
     * ?
@@ -39,7 +44,7 @@ facets).
     this login is shared with ADS Labs. 
     Simply click on the ``Sign on`` link on the top-right of the screen.
 
-.. sidebar:: Filters, Facets, Future
+.. topic:: Filters, Facets, Future
 
    There are a couple of interesting points about Filtering, Facets and the
    Future of `ADS Labs`_:
@@ -61,7 +66,7 @@ Author Based Queries
 Author searches are the most popular searches in ADS. We all want to see what
 our favorite {collaborators|competitors|friends} have been up to. Let’s walk
 through a typical author search in ADS Labs, starting from the ADS Labs' 
-`streamlined search form <http://adslabs.org/ui>`_
+`streamlined search form <http://adslabs.org/ui>`_.
 
 #. We’re interested in papers by Steve Murray. Let’s find out what papers he
    wrote as first author. Click on “first author” link and enter: “Murray, S”
