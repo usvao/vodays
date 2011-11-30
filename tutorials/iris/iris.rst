@@ -1,7 +1,7 @@
 .. vodays documentation file
 .. include:: ../../references.rst
 
-:tocdepth: 1
+:tocdepth: 3
 
 .. _tutorial_iris:
    

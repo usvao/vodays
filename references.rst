@@ -7,9 +7,10 @@
 .. _Seleste: http://cdatest.cfa.harvard.edu/seleste/index.html 
 .. _Iris: http://cxc.harvard.edu/iris/ 
 
-.. _ADS Labs: adslabs.org 
+.. _ADS Labs: http://adslabs.org/ 
 .. _Discovery Portal: http://vaotest.stsci.edu/portal/Mashup/Clients/Portal/DataDiscovery.html 
 
 .. _Boston 2011.1 (RTD): http://readthedocs.org/docs/vodays/en/boston2011.1/
 
 .. _3C273: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=3c273&NbIdent=1&Radius.unit=arcmin&submit=submit%20id&Radius=2
+.. _Abell 2199: http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Abell+2199&NbIdent=1&Radius.unit=arcmin&submit=submit%20id&Radius=2
