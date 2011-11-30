@@ -64,7 +64,15 @@ Building the SED
        the Location on Disk radio box is selected. Browse one’s disk to 
        select the file, ensure that the File Format is ASCII Table, 
        and then load the data.
-    #. A new Import Setup window should appear. This step is necessary to tell Iris what the relevant units are. The external Fermi file should be structured so that the first column (col1) is energy in units of Mev, the second column is photon flux density in units of photons/cm2/s/Hz, and the third column contains the uncertainties as a SymmetricColumn. Because these data are being loaded from an external file, the Publisher is specified as UNKNOWN. For ease of keeping track of various data segments, it is recommended that one change this field to something meaningful, e.g., Fermi. 
+    #. A new Import Setup window should appear. This step is necessary to tell
+       Iris what the relevant units are. The external Fermi file should be
+       structured so that the first column (col1) is energy in units of Mev, the
+       second column is photon flux density in units of photons/cm2/s/Hz, and the
+       third column contains the uncertainties as a SymmetricColumn. Because
+       these data are being loaded from an external file, the Publisher is
+       specified as UNKNOWN. For ease of keeping track of various data segments,
+       it is recommended that one change this field to something meaningful,
+       e.g., Fermi.
     #. Select Add Segment to SED.
 
 #. At this point, the SED window should show a record listing 5 data from the
