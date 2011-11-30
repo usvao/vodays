@@ -1,7 +1,7 @@
 .. vodays documentation file
 .. include:: ../references.rst
 
-:tocdepth: 2
+:tocdepth: 3
 
 .. _voday_tutorials: 
 
@@ -14,7 +14,7 @@ The workshop's agenda follow these four tutorials.  Each tutorial will last
 approximately 30 minutes.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    adslabs/adslabs
    discoveryportal/discoveryportal

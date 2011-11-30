@@ -5,5 +5,19 @@
 
 .. _sci_blazars:
    
-Blazars, Fermi, ALMA, oh my!  
+Quasars, Fermi, ALMA, oh my!  
 ============================
+
+Recent (and future) surveys that observe the whole sky at high energy and
+mm/submm wavelengths will help fill the gaps in the multi-wavelength
+observations of some of the most interesting astronomical sources (like
+quasars), and constrain their emission mechanisms.
+
+
+
+Our story begins under the following hypothetical: one has just acquired ALMA
+data on a Fermi source. Not just any Fermi source but the famous source 3C273,
+the first quasar ever to be identified. This radio-loud quasar was detected by
+Fermi as 2FGL J1229.1+0202, and has already has a large amount of
+multi-wavelength data that can be used to reconstruct of overall shape of its
+SED. 

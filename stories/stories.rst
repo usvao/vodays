@@ -1,7 +1,7 @@
 .. vodays documentation file
 .. include:: ../references.rst
 
-:tocdepth: 2
+:tocdepth: 3
 
 .. _sci_stories: 
 
