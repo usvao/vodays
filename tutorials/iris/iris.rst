@@ -48,21 +48,24 @@ editor before beginning the script).
 
 Building the SED
 ----------------
-
-#. Start the `Iris`_ SED Importer tool, the **SEDImporter**.    
-
 .. image:: /tutorials/iris/picture1.png
    :align: right
-   :width: 20 %
+   :width: 15 %
    :scale: 100 %
 
-  
+#. Start the `Iris`_ SED Importer tool, the **SEDImporter**.    
 #. Select ``Load SED``. A text box will open; provide a name for the new SED
    (e.g., `3C273`_). A new window should appear, with the ID specified.
 #. In the Target Info area, enter the name `3C273`_ to resolve the source name
    into coordinates. Select ``Resolve`` and the coordinates should be filled in.
    (RA = 187.277896334, DEC = 2.052406321).
-#. At the time of the writing of this document, the 2 Year Fermi data has not
+       
+.. image:: /tutorials/iris/picture2.png
+   :align: right
+   :width: 15 %
+   :scale: 100 %    
+
+#. At the time of the writing of this document, the Year 2 Fermi data has not
    been incorporated into the NASA Extragalactic Database (NED). We must,
    therefore, do it ourselves. Included in this tutorial should be a file 
    named :download:`3c273_fermi.dat <3c273_fermi.dat>` containing the 
@@ -72,7 +75,8 @@ Building the SED
        Since we are loading Fermi data from an external file, ensure that 
        the ``Location on Disk`` radio box is selected. Browse one’s disk to 
        select the file, ensure that the ``File Format`` is ASCII Table, 
-       and then load the data.
+       and then load the data.   
+          
     #. A new ``Import Setup`` window should appear. This step is necessary to tell
        `Iris`_ what the relevant units are. The external Fermi file should be
        structured so that the first column (*col1*) is energy in units of Mev, the
@@ -82,6 +86,7 @@ Building the SED
        specified as *UNKNOWN*. For ease of keeping track of various data segments,
        it is recommended that one change this field to something meaningful,
        e.g., Fermi.
+
     #. Select ``Add Segment`` to SED.
 
 #. At this point, the SED window should show a record listing 5 data from the
@@ -111,6 +116,12 @@ Building the SED
        something meaningful, e.g., ALMA.
     #. Select ``Add Segment`` to SED.
 
+
+.. image:: /tutorials/iris/picture3.png
+   :align: right
+   :width: 15 %
+   :scale: 100 %   
+
 #. At this point, the SED window should show a record listing 4 data from the
    publisher ALMA, with the coordinates of 3C273.
 #. ``Save this SED``, which should contain 3 segments from the publishers Fermi,
@@ -122,6 +133,12 @@ Modeling the SED
 
 #. In order to display this SED, click on ``Launch Iris`` icon from the main
    **SEDImporter** window. A new window should appear.
+
+.. image:: /tutorials/iris/picture4.png
+   :align: right
+   :width: 15 %
+   :scale: 100 %    
+
 #. Go back to the main SED window of the **SEDImporter** and click on 
    ``Broadcast SED`` to seamlessly send the whole SED to `Iris`_. 
    The plot of the SED should
@@ -133,6 +150,12 @@ Modeling the SED
    quantity selector that is by default set to density flux. You will be asked to
    select the units of measure for the spectral and flux axes, a good choice is
    Hz and Jy-Hz respectively for the nu*f(nu) visualization of the SED.
+
+.. image:: /tutorials/iris/picture5.png
+   :align: right
+   :width: 15 %
+   :scale: 100 %    
+
 #. Clicking on ``Fit``, you will see that the powerlaw model from the models list
    is added by default. You can click on ``Fit``, pick an ``Optimization`` method and one
    ``Statistics`` and perform the fit with this model.
